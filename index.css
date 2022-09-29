@@ -1,0 +1,101 @@
+body{
+    background-color:powderblue ;
+}
+.groot{
+    background-color: aqua;
+    margin-left:40px ;
+}
+.guardianOfGallaxy{
+    color:indigo ;
+    background-color: aquamarine;
+    padding:40px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.done{
+    background-color: darkcyan;
+    height:200px ;
+    width: 100px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.container{
+    background-color: azure;
+    margin: auto;
+    width: 500px;
+}
+div{
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow:2px 5px gray ;
+    background-color: beige;
+    text-align: center;
+    border-radius: 3px;
+    color:grey ;
+
+
+}
+h2{
+    color: darkcyan;
+}
+a{
+text-decoration:none ;
+}
+.apple{
+color:darkolivegreen
+}
+.mango{
+    color: blueviolet !important;
+}
+#hobbies{
+
+}
+
+
+
+p{
+    color:black;
+}
+
+
+
+
+
+h1{
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+}
+p a{
+    font-weight: bold;
+}
+li> a{
+    text-decoration: none;
+}
+.child > p{
+    color: orangered;
+}
+.descendant p{
+    color:midnightblue;
+}
+div{
+    margin-top: 40px;
+    padding:30px ;
+    box-shadow: 2px 5px grey;
+    background-color: azure;
+    text-align: center;
+    border-radius: 3px;
+    color: gray;
+
+}
+h2{
+    border-bottom: 2px solid black ;
+    text-align: center;
+}
+h3{
+    border-bottom: 2px solid ;
+    text-align: center;
+}

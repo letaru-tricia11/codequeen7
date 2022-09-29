@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF=8">
+<title> GETTING A HANG OF CSS</title>
+<link rel="stylesheet" href="index.css">
+    </head>
+    <!--descendant-->
+    <body>
+        <h1>I am trying out descendant selector</h1>
+
+        <ul>
+            <li><a href="#">generic hyperlink</a></li>
+            <li><a href="#">generic hyperlink</a></li>
+            <li><a href="#">generic hyperlink</a></li>
+            <li><a href="#">generic hyperlink</a></li>
+         </ul>
+         <p>So far I have <a href="#" > regular text</a> tried out id selector and descendant selector</p>
+         <!--child-->
+         <section class="child">
+            <h2>child selector</h2>
+            <div class="nested">
+                <code>.child></code>
+                <p class="nested-again">will not select this paragraph which is nested within a div. Using <code>.child p/></code>would select paragraph</p>
+            </div>
+            <p>It willl only select paragraghs like this one</p>
+            <p>And like this one, they are direct children of the selection element with the .child class. 
+                Any paragrags nested within another containing elemant will be descendants rather than children.</p>
+         </section>
+         <!--Descendant-->
+         <section class="descendant">
+            <h3>descendant selector</h3>
+            <code>.descendant p</code>
+            <p>select all paragraphs found inside of this .descendant section</p>
+            <div>
+                <p>Even this one which is nested in a div</p>
+                <div>
+                    <span>Both of these are descendants of the .descendant section</span>
+                </div>
+                <p> even this paragragh is selected despite being nested within 2 divs. check the code:</p>
+            </div>
+         </section>
+
+    </body>
+</html>
