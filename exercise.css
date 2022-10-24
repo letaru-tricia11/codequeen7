@@ -1,0 +1,33 @@
+body{
+    background-color: powderblue;
+
+}
+.container{
+    background-color: antiquewhite;
+    border-radius: 0%;
+    margin-left: 40px;
+}
+.box{
+    color: black;
+    background-color: antiquewhite;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: orangered;
+}
+.container{
+    border: darkgoldenrod;
+}
+img{
+    width: 50px;
+    height:50px ;
+    float: right;
+}
+table{
+    border: 3px;
+}
